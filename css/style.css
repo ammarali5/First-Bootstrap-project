@@ -60,13 +60,13 @@ body {
 
 ::-webkit-scrollbar-track {
   background: var(--white-color);
-  border-radius: 10px;
+  border-radius: 0.5rem;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--primary-color);
-  border-radius: 10px;
-  border: 2px solid var(--white-color);
+  border-radius: 0.5rem;
+  border: 0.2rem solid var(--white-color);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -85,11 +85,11 @@ body {
 }
 
 .navigation-wrap.scroll-on {
-  box-shadow: 0 2px 4px 4px rgba(0 0 0 / 10%);
+  box-shadow: 0 0.1rem 0.2rem 0.2rem rgba(0 0 0 / 10%);
 }
 
 .nav-logo {
-  width: 75%;
+  width: 8rem;
   transition: all 0.15s ease-in-out 0s;
 }
 
@@ -323,7 +323,7 @@ body {
 }
 
 .food-item {
-  max-width: 400px;
+  max-width: 20rem;
 }
 
 .food-item h3 {
